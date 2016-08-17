@@ -56,3 +56,17 @@ data Proxy2 (a :: * -> *) = Proxy2
 
 -- | Value proxy for kind `* -> * -> *` types.
 data Proxy3 (a :: * -> * -> *) = Proxy3
+
+data Proxy4 (a :: * -> * -> * -> *) = Proxy4
+
+data Proxy5 (a :: * -> * -> * -> * -> *) = Proxy5
+
+data Proxy6 (a :: * -> * -> * -> * -> * -> *) = Proxy6
+
+data Proxy7 (a :: * -> * -> * -> * -> * -> * -> *) = Proxy7
+
+data Proxy8 (a :: * -> * -> * -> * -> * -> * -> * -> *) = Proxy8
+
+data Proxy9 (a :: * -> * -> * -> * -> * -> * -> * -> * -> *) = Proxy9
+
+data Proxy10 (a :: * -> * -> * -> * -> * -> * -> * -> * -> * -> *) = Proxy10
